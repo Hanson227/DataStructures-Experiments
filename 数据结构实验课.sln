@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "栈", "栈", "{5DB31E39-2620-484F-9B59-9F2075716A51}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "线性表", "线性表", "{33732AC8-AF9E-4FA2-A1D7-FF0ABE1AD64B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "线性表实验", "线性表实验\线性表实验\线性表实验.vcxproj", "{F6B6B0F4-4440-4E04-ADD3-F3A40D2ED40E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "线性表实验2", "线性表实验\线性表实验2\线性表实验2.vcxproj", "{904B8472-C816-49C5-8623-42523C4452BA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "栈的基本操作", "栈实验\栈的基本操作\栈的基本操作.vcxproj", "{447FC374-39AB-445D-8882-68BE625176C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6B6B0F4-4440-4E04-ADD3-F3A40D2ED40E}.Debug|x64.ActiveCfg = Debug|x64
+		{F6B6B0F4-4440-4E04-ADD3-F3A40D2ED40E}.Debug|x64.Build.0 = Debug|x64
+		{F6B6B0F4-4440-4E04-ADD3-F3A40D2ED40E}.Debug|x86.ActiveCfg = Debug|Win32
+		{F6B6B0F4-4440-4E04-ADD3-F3A40D2ED40E}.Debug|x86.Build.0 = Debug|Win32
+		{F6B6B0F4-4440-4E04-ADD3-F3A40D2ED40E}.Release|x64.ActiveCfg = Release|x64
+		{F6B6B0F4-4440-4E04-ADD3-F3A40D2ED40E}.Release|x64.Build.0 = Release|x64
+		{F6B6B0F4-4440-4E04-ADD3-F3A40D2ED40E}.Release|x86.ActiveCfg = Release|Win32
+		{F6B6B0F4-4440-4E04-ADD3-F3A40D2ED40E}.Release|x86.Build.0 = Release|Win32
+		{904B8472-C816-49C5-8623-42523C4452BA}.Debug|x64.ActiveCfg = Debug|x64
+		{904B8472-C816-49C5-8623-42523C4452BA}.Debug|x64.Build.0 = Debug|x64
+		{904B8472-C816-49C5-8623-42523C4452BA}.Debug|x86.ActiveCfg = Debug|Win32
+		{904B8472-C816-49C5-8623-42523C4452BA}.Debug|x86.Build.0 = Debug|Win32
+		{904B8472-C816-49C5-8623-42523C4452BA}.Release|x64.ActiveCfg = Release|x64
+		{904B8472-C816-49C5-8623-42523C4452BA}.Release|x64.Build.0 = Release|x64
+		{904B8472-C816-49C5-8623-42523C4452BA}.Release|x86.ActiveCfg = Release|Win32
+		{904B8472-C816-49C5-8623-42523C4452BA}.Release|x86.Build.0 = Release|Win32
+		{447FC374-39AB-445D-8882-68BE625176C3}.Debug|x64.ActiveCfg = Debug|x64
+		{447FC374-39AB-445D-8882-68BE625176C3}.Debug|x64.Build.0 = Debug|x64
+		{447FC374-39AB-445D-8882-68BE625176C3}.Debug|x86.ActiveCfg = Debug|Win32
+		{447FC374-39AB-445D-8882-68BE625176C3}.Debug|x86.Build.0 = Debug|Win32
+		{447FC374-39AB-445D-8882-68BE625176C3}.Release|x64.ActiveCfg = Release|x64
+		{447FC374-39AB-445D-8882-68BE625176C3}.Release|x64.Build.0 = Release|x64
+		{447FC374-39AB-445D-8882-68BE625176C3}.Release|x86.ActiveCfg = Release|Win32
+		{447FC374-39AB-445D-8882-68BE625176C3}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F6B6B0F4-4440-4E04-ADD3-F3A40D2ED40E} = {33732AC8-AF9E-4FA2-A1D7-FF0ABE1AD64B}
+		{904B8472-C816-49C5-8623-42523C4452BA} = {33732AC8-AF9E-4FA2-A1D7-FF0ABE1AD64B}
+		{447FC374-39AB-445D-8882-68BE625176C3} = {5DB31E39-2620-484F-9B59-9F2075716A51}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CC485CB3-E46F-4457-873C-1C9A9DB39C5E}
+	EndGlobalSection
+EndGlobal
