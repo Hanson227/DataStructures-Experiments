@@ -4,13 +4,25 @@
 
 
 int IsMatch(char c1, char c2) {
-    switch (c1) {
+    switch (c1) 
+    {
     case '(':
-        return c2 == ')';
+        if (c2 == '(')
+        {
+            return 1;
+        }
+        break;
+        
     case '[':
-        return c2 == ']';
+        if(c2 == ']')
+            return 1;
+        break;
     case '{':
-        return c2 == '}';
+        if (c2 == '}')
+        {
+            return 1;
+        }
+        break;
     }
 }
 
@@ -20,7 +32,7 @@ int Judge(char s[]) {
     for (int i = 0; i < len; i++) {
         if (s[i] == '(' || s[i] == '[' || s[i] == '{' || !IsEmpty(stack))
             push(s[i], stack);  //Îª×óÔªËØ»òÕ»¿Õ£¬ÈëÕ»
-        else if (IsMatch(top(stack), s[i]))
+        else if (IsMatch(s[i-1], s[i]))
             pop(stack);  //ÓëÕ»¶¥Æ¥ÅäÔòÕ»¶¥ÔªËØ³öÕ»
         else
             push(s[i], stack); //ÓëÕ»¶¥²»Æ¥ÅäÔòÈëÕ»

@@ -18,22 +18,23 @@ STACK CreatStack(int num) {
     s->top = -1; //Õ»¶¥Î»ÖÃÎª-1£¬¼´¿Õ
     return s;
 }
-
+//ÅÐ¶ÏÊÇ·ñÎª¿Õ
 int IsEmpty(STACK s) {
     return s->top == -1;
 }
 
+//ÈëÕ»
 void push(int x, STACK s) {
     if (s->top < s->capacity)  //Õ»Î´Âú
         s->array[++s->top] = x;
 }
-
+//»ñÈ¡Õ»¶¥ÔªËØ
 int top(STACK s) {
     if (!IsEmpty(s))
         return s->array[s->top];
     return 0;
 }
-
+//³öÕ»
 void pop(STACK s) {
     if (!IsEmpty(s))
         s->top--;
