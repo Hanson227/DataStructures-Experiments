@@ -15,21 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="SqList.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="SqStack.cpp">
+    <ClCompile Include="源.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="SqStack.h">
+    <ClInclude Include="SqList.h">
       <Filter>源文件</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="README.md">
-      <Filter>资源文件</Filter>
-    </None>
   </ItemGroup>
 </Project>
