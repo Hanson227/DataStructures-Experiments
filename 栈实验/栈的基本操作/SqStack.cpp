@@ -50,7 +50,8 @@ Status GetTopStack(SqStack* S, ElemType* e) {
 // 进栈，参数e是要进栈的元素
 Status PushStack(SqStack* S, ElemType e) {
     // 若栈的最大长度不会够用时，重新开辟，增大长度
-    if (S->top - S->base >= S->stack_size) {
+    if (S->top - S->base >= S->stack_size) 
+    {
         S->base = (ElemType*)realloc(S->base, (S->stack_size + StackIncrement) * sizeof(ElemType));
         if (!S->base) {
             return 0;
