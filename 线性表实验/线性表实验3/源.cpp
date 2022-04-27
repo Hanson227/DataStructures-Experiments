@@ -38,18 +38,20 @@ void SortList(SqList &L, int m, int n)
 	length = m + n;
 	n = m;
 	m = 0;
-	while (m < length - 1)
+	while (n < length )
 	{
 		if (L.elem[n] < L.elem[m])
 		{
 			temp = L.elem[n];
 			for (i = n; i > m; i--)
+			{
 				L.elem[i] = L.elem[i - 1];
+			}
 			L.elem[m] = temp;
 			m++;
 			n++;
 		}
-		else if (L.elem[m] < L.elem[n])
+		else if (L.elem[m] < L.elem[n+1])
 		{
 			m++;
 		}
