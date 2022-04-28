@@ -19,6 +19,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "线性表实验3", "线性�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "线性表的基本操作", "线性表实验\线性表基本操作\线性表.vcxproj", "{B22B2DAD-7BCE-4785-9277-D39B0DAEC81B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "线性表实验4", "线性表实验\线性表实验4\线性表实验4.vcxproj", "{AC97DEB6-8928-4902-89DF-363624FDE422}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "栈的实验3", "栈实验\栈的实验3\栈的实验3.vcxproj", "{7C6FD5B5-D5E9-42C3-8898-41237246D6BA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -75,6 +79,22 @@ Global
 		{B22B2DAD-7BCE-4785-9277-D39B0DAEC81B}.Release|x64.Build.0 = Release|x64
 		{B22B2DAD-7BCE-4785-9277-D39B0DAEC81B}.Release|x86.ActiveCfg = Release|Win32
 		{B22B2DAD-7BCE-4785-9277-D39B0DAEC81B}.Release|x86.Build.0 = Release|Win32
+		{AC97DEB6-8928-4902-89DF-363624FDE422}.Debug|x64.ActiveCfg = Debug|x64
+		{AC97DEB6-8928-4902-89DF-363624FDE422}.Debug|x64.Build.0 = Debug|x64
+		{AC97DEB6-8928-4902-89DF-363624FDE422}.Debug|x86.ActiveCfg = Debug|Win32
+		{AC97DEB6-8928-4902-89DF-363624FDE422}.Debug|x86.Build.0 = Debug|Win32
+		{AC97DEB6-8928-4902-89DF-363624FDE422}.Release|x64.ActiveCfg = Release|x64
+		{AC97DEB6-8928-4902-89DF-363624FDE422}.Release|x64.Build.0 = Release|x64
+		{AC97DEB6-8928-4902-89DF-363624FDE422}.Release|x86.ActiveCfg = Release|Win32
+		{AC97DEB6-8928-4902-89DF-363624FDE422}.Release|x86.Build.0 = Release|Win32
+		{7C6FD5B5-D5E9-42C3-8898-41237246D6BA}.Debug|x64.ActiveCfg = Debug|x64
+		{7C6FD5B5-D5E9-42C3-8898-41237246D6BA}.Debug|x64.Build.0 = Debug|x64
+		{7C6FD5B5-D5E9-42C3-8898-41237246D6BA}.Debug|x86.ActiveCfg = Debug|Win32
+		{7C6FD5B5-D5E9-42C3-8898-41237246D6BA}.Debug|x86.Build.0 = Debug|Win32
+		{7C6FD5B5-D5E9-42C3-8898-41237246D6BA}.Release|x64.ActiveCfg = Release|x64
+		{7C6FD5B5-D5E9-42C3-8898-41237246D6BA}.Release|x64.Build.0 = Release|x64
+		{7C6FD5B5-D5E9-42C3-8898-41237246D6BA}.Release|x86.ActiveCfg = Release|Win32
+		{7C6FD5B5-D5E9-42C3-8898-41237246D6BA}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -86,6 +106,8 @@ Global
 		{CAF3DECD-3CC7-4183-9009-08C076BAFED6} = {5DB31E39-2620-484F-9B59-9F2075716A51}
 		{9B7953AC-1370-4744-AFE6-EC80255CAEF2} = {33732AC8-AF9E-4FA2-A1D7-FF0ABE1AD64B}
 		{B22B2DAD-7BCE-4785-9277-D39B0DAEC81B} = {33732AC8-AF9E-4FA2-A1D7-FF0ABE1AD64B}
+		{AC97DEB6-8928-4902-89DF-363624FDE422} = {33732AC8-AF9E-4FA2-A1D7-FF0ABE1AD64B}
+		{7C6FD5B5-D5E9-42C3-8898-41237246D6BA} = {5DB31E39-2620-484F-9B59-9F2075716A51}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CC485CB3-E46F-4457-873C-1C9A9DB39C5E}
